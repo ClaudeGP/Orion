@@ -198,7 +198,7 @@ class Perspective(Frame):
         self.cadreinfo=Frame(self,width=200,height=200,bg="darkgrey")
         self.cadreinfo.pack(side=LEFT,fill=Y)
         self.cadreinfo.pack_propagate(0)
-        self.cadreetat=Frame(self.cadreinfo,width=200,height=200,bg="grey20")
+        self.cadreetat=Frame(self.cadreinfo,width=800,height=600,bg="grey20")
         self.cadreetat.pack()
         
         self.scrollX=Scrollbar(self.cadrevue,orient=HORIZONTAL)
