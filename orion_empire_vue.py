@@ -203,7 +203,7 @@ class Perspective(Frame):
         
         self.scrollX=Scrollbar(self.cadrevue,orient=HORIZONTAL)
         self.scrollY=Scrollbar(self.cadrevue)
-        self.canevas=Canvas(self.cadrevue,width=300,height=200,bg="grey11",
+        self.canevas=Canvas(self.cadrevue,width=800,height=600,bg="grey11",
                              xscrollcommand=self.scrollX.set,
                              yscrollcommand=self.scrollY.set)
         
